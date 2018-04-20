@@ -5,12 +5,12 @@ This repo is my solution for [challenge](http://geeks.redmart.com/2015/10/26/100
 Basically, this is a 0-1 [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem) that utilize dynamic programming
 paradigm. However, the problem addressed maximization of total price (first priority) and minimization of total weight (second priority).
 
-## List of Problem
+## List of Problems
 - Pick at most 1 from each kind of product
 - Total volume <= tote total volume (45 x 30 x 35 = 47250)
 - Products must fit individually (a product with dimmension 35 x 35 x 45 cannot fit) 
-- Maximize total prices
-- Minimize total weights
+- Maximize total prices (first priority)
+- Minimize total weights (second priority)
 
 ## Implementation
 Bottom Up Dynamic Programming is used. Since we need to maximize total price and minimize total weight, 2 DP memoization are used.
